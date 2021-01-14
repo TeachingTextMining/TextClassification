@@ -1,5 +1,3 @@
-# Clasificación de textos utilizando [Transformers](https://huggingface.co/transformers/)
-
 El cuaderno está concebido para su ejecución mediante Jupyter, utilizando contenedores Docker. 
 
 (i)	crear la imagen
