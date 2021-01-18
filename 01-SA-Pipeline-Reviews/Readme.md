@@ -11,5 +11,3 @@ docker run -it -p 8888:8888 --volume="[host path]:/[container path]" [image id] 
 	docker run -it -p 8888:8888 --volume="/C/nlp/SA-Transformers-Training-FineTuning/:/nlp" transformers_sa:latest jupyter notebook --notebook-dir=/nlp --ip 0.0.0.0 --no-browser --allow-root --NotebookApp.token="sa-pipeline-review"
 	
 (iii) abrir navegador y acceder a http://localhost:8888?token=sa-pipeline-review
-
-
