@@ -13,7 +13,7 @@ docker run -it -p 8888:8888 --volume="[host path]:/[container path]" [image id] 
 (iii) abrir navegador y acceder a http://localhost:8888?token=sa-transformers-featurecomposition
 
 
-## Freeze colab 16/06/2022
+#### Dependencias validadas (freeze Google Colab 16/06/2022)
 
 absl-py==1.1.0
 alabaster==0.7.12
