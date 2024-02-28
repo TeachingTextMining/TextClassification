@@ -1,15 +1,16 @@
 El cuaderno está concebido para su ejecución mediante Jupyter, utilizando contenedores Docker. 
 
 OPCIÓN A:
+Ejecutar el cuaderno desde Google Colab:
 1 - docker pull jupyter/scipy-notebook:python-3.9.13
 2 - docker run -p 8888:8888 jupyter/scipy-notebook:python-3.9.13
-3 - copiaR esta url que te da aqui y la pegas en colab
+3 - copiaR esta url que te da aqui y la pegas en Google Colab
 ![Alt text](image.png)
 
 
 
 OPCIÓN B:
-
+Ejecutar cuaderno en jupyter
 (i)	crear la imagen
 docker build -f Dockerfile -t transformers_sa:latest .
 
